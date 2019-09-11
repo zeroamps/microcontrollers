@@ -1,5 +1,5 @@
 # Blink
-It blinks a LED connected to the PIN 2 via a resistor.
+It blinks a LED connected to the PIN 2 via a resistor. It works the same on ATtiny4, ATtiny5, ATtiny9 and ATtiny10.
 
 ## ATtiny4 
 ### How to build it
