@@ -3,6 +3,8 @@
 This repository is my storage for everything related with programming microcontrollers of any kind.
 
 ## 8-bit AVR microcontrollers
+### ATtiny4 / ATtiny5 / ATtiny9 / ATtiny10
+* [Blink](???) - it shows how to blink a LED.
 
 ## Resources
 ### Books
