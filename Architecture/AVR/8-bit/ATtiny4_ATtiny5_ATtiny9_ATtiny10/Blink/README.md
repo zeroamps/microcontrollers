@@ -1,5 +1,5 @@
 # Blink
-It blinks a LED connected to the PIN 2 via a resistor. It works the same on ATtiny4, ATtiny5, ATtiny9 and ATtiny10.
+It blinks a LED connected to the PIN 2 via a resistor. It works the same on ATtiny4, ATtiny5, ATtiny9 and ATtiny10. For uploading binaries I use USBasp programmer which supports TPI (Tiny Programming Interface).
 
 ## ATtiny4 
 ### How to build it
