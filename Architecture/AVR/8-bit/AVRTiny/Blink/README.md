@@ -7,7 +7,7 @@ ATtiny4, ATtiny5, ATtiny9, ATtiny10, ATtiny20 and ATtiny40.
 ## How to compile and upload it to a microcontroller
 
 ### Option 1
-In Visual Studio Code just press Ctrl+Shift+B and it compiles the code and uploads it to a microcontroller. For correct intellisense in Visual Studio Code don't forget to change to your target microcontroller in c_cpp_properties.json.
+In Visual Studio Code just press Ctrl+Shift+B and it compiles the code and uploads it to a microcontroller. For correct intellisense in Visual Studio Code don't forget to change c_cpp_properties.json to your target microcontroller.
 ```
 "defines": [
                 "__AVR_ATtiny10__"
