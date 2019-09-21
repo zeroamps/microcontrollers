@@ -7,7 +7,12 @@ ATtiny4, ATtiny5, ATtiny9, ATtiny10, ATtiny20 and ATtiny40.
 ## How to compile and upload it to a microcontroller
 
 ### Option 1
-In Visual Studio Code just press Ctrl+Shift+B and it compiles the code and uploads it to a microcontroller.
+In Visual Studio Code just press Ctrl+Shift+B and it compiles the code and uploads it to a microcontroller. For correct intellisense in Visual Studio Code don't forget to change to your target microcontroller in c_cpp_properties.json.
+```
+"defines": [
+                "__AVR_ATtiny10__"
+            ], 
+```
 
 ### Option 2
 By default for ATtiny10, F_CPU=1000000UL.
@@ -25,12 +30,4 @@ make MCU=attiny20 F_CPU=8000000UL
 ```
 avr-gcc blink.c -mmcu=attiny4 -DF_CPU=1000000UL -Os -o blink.bin
 avrdude -c usbasp -p attiny4 -U blink.bin
-```
-
-#### Note
-For correct intellisense in Visual Studio Code don't forget to change to your target microcontroller in c_cpp_properties.json.
-```
-"defines": [
-                "__AVR_ATtiny10__"
-            ], 
 ```
