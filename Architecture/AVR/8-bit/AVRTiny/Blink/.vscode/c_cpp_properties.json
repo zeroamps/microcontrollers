@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "__AVR_ATtiny10__"
+            ],
+            "cStandard": "c11",
+            "intelliSenseMode": "gcc-x86",
+            "compilerPath": "\"C:\\Program Files (x86)\\Arduino\\hardware\\tools\\avr\\bin\\avr-gcc.exe\""
+        }
+    ],
+    "version": 4
+}
