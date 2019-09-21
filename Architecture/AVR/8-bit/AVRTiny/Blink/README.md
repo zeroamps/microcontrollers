@@ -2,12 +2,12 @@
 It blinks a LED connected to the PIN 4 via a resistor. For uploading binaries I use USBasp programmer which supports TPI (Tiny Programming Interface) and SPI (Serial Peripheral Interface).
 
 ## Supported microcontrollers
-ATtiny4, ATtiny5, ATtiny9, ATtiny10, ATtiny20 and ATtiny40 it compiles the code and uploads it to a microcontroller.
+ATtiny4, ATtiny5, ATtiny9, ATtiny10, ATtiny20 and ATtiny40.
 
 ## How to compile and upload it to a microcontroller
 
 ### Option 1
-In Visual Studio Code just press Ctrl+Shift+B.
+In Visual Studio Code just press Ctrl+Shift+B and it compiles the code and uploads it to a microcontroller.
 
 ### Option 2
 By default for ATtiny10, F_CPU=1000000UL.
