@@ -1,5 +1,8 @@
 # Blink
-It blinks a LED connected to the PIN 2 via a resistor. It works the same on ATtiny4, ATtiny5, ATtiny9 and ATtiny10. For uploading binaries I use USBasp programmer which supports TPI (Tiny Programming Interface).
+It blinks a LED connected to the PIN 2 via a resistor. For uploading binaries I use USBasp programmer which supports TPI (Tiny Programming Interface) and SPI (Serial Peripheral Interface).
+
+## Supported microcontrollers
+ATtiny4, ATtiny5, ATtiny9, ATtiny10, ATtiny20 and ATtiny40.
 
 ## ATtiny4 
 avr-gcc blink.c -mmcu=attiny4 -DF_CPU=1000000UL -Os -o blink.bin
