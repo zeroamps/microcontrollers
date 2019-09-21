@@ -13,3 +13,5 @@ This repository is my storage for everything related with programming microcontr
 
 ### Datasheets
 * [ATtiny4/ATtiny5/ATtiny9/ATtiny10](http://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny4-5-9-10-Data-Sheet-DS40002060A.pdf)
+* [ATtiny20](http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8235-8-bit-AVR-Microcontroller-ATtiny20_Datasheet.pdf)
+* [ATtiny40](http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8263-8-bit-AVR-Microcontroller-tinyAVR-ATtiny40_Datasheet.pdf)
