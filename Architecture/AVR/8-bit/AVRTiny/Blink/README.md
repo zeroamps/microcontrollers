@@ -2,7 +2,7 @@
 It blinks a LED connected to the PIN 4 via a resistor. For uploading binaries I use USBasp programmer which supports TPI (Tiny Programming Interface) and SPI (Serial Peripheral Interface).
 
 ## Supported microcontrollers
-ATtiny4, ATtiny5, ATtiny9, ATtiny10, ATtiny20 and ATtiny40.
+ATtiny4, ATtiny5, ATtiny9, ATtiny10, ATtiny20 and ATtiny40 it compiles the code and uploads it to a microcontroller.
 
 ## How to compile and upload it to a microcontroller
 
