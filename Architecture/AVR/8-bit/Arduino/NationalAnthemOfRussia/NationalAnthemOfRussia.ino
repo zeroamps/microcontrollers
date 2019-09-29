@@ -1,0 +1,195 @@
+#define NOTE_C3  131 // Hz
+#define NOTE_CS3 139 // Hz
+#define NOTE_D3  147 // Hz
+#define NOTE_DS3 156 // Hz
+#define NOTE_E3  165 // Hz
+#define NOTE_F3  175 // Hz
+#define NOTE_FS3 185 // Hz
+#define NOTE_G3  196 // Hz
+#define NOTE_GS3 208 // Hz
+#define NOTE_A3  220 // Hz
+#define NOTE_AS3 233 // Hz
+#define NOTE_B3  247 // Hz
+#define NOTE_C4  262 // Hz
+#define NOTE_CS4 277 // Hz
+#define NOTE_D4  294 // Hz
+#define NOTE_DS4 311 // Hz
+#define NOTE_E4  330 // Hz
+#define NOTE_F4  349 // Hz
+#define NOTE_FS4 370 // Hz
+#define NOTE_G4  392 // Hz
+#define NOTE_GS4 415 // Hz
+#define NOTE_A4  440 // Hz
+#define NOTE_AS4 466 // Hz
+#define NOTE_B4  494 // Hz
+
+// Maestoso 72 beats per minute ((60 seconds /72 beats) * 0.25 sixteenth note)
+#define NOTE_SIXTEENTH      208                 // milliseconds
+#define NOTE_EIGHTH         2*NOTE_SIXTEENTH    // milliseconds
+#define NOTE_DOTTED_EIGHTH  3*NOTE_SIXTEENTH    // milliseconds
+#define NOTE_QUARTER        4*NOTE_SIXTEENTH    // milliseconds
+#define NOTE_DOTTED_QUARTER 6*NOTE_SIXTEENTH    // milliseconds
+#define NOTE_HALF           8*NOTE_SIXTEENTH    // milliseconds
+#define NOTE_WHOLE          16*NOTE_SIXTEENTH   // milliseconds
+
+#define BUZZER_PIN 8
+#define NUMBER_OF_NOTES 110
+
+int anthem[NUMBER_OF_NOTES][2] = {
+  {NOTE_C4, NOTE_EIGHTH},
+
+  {NOTE_F4, NOTE_QUARTER},
+  {NOTE_C4, NOTE_DOTTED_EIGHTH},
+  {NOTE_D4, NOTE_SIXTEENTH},
+  {NOTE_E4, NOTE_QUARTER},
+  {NOTE_A3, NOTE_EIGHTH},
+  {NOTE_A3, NOTE_EIGHTH},
+
+  {NOTE_D4, NOTE_QUARTER},
+  {NOTE_C4, NOTE_DOTTED_EIGHTH},
+  {NOTE_AS3, NOTE_SIXTEENTH},
+  {NOTE_C4, NOTE_QUARTER},
+  {NOTE_F3, NOTE_EIGHTH},
+  {NOTE_F3, NOTE_EIGHTH},
+
+  {NOTE_G3, NOTE_QUARTER},
+  {NOTE_G3, NOTE_EIGHTH},
+  {NOTE_A3, NOTE_EIGHTH},
+  {NOTE_AS3, NOTE_QUARTER},
+  {NOTE_AS3, NOTE_EIGHTH},
+  {NOTE_C4, NOTE_EIGHTH},
+
+  {NOTE_D4, NOTE_QUARTER},
+  {NOTE_E4, NOTE_EIGHTH},
+  {NOTE_F4, NOTE_EIGHTH},
+  {NOTE_G4, NOTE_HALF},
+
+  {NOTE_A4, NOTE_QUARTER},
+  {NOTE_G4, NOTE_DOTTED_EIGHTH},
+  {NOTE_F4, NOTE_SIXTEENTH},
+  {NOTE_G4, NOTE_QUARTER},
+  {NOTE_E4, NOTE_EIGHTH},
+  {NOTE_C4, NOTE_EIGHTH},
+
+  {NOTE_F4, NOTE_QUARTER},
+  {NOTE_E4, NOTE_DOTTED_EIGHTH},
+  {NOTE_D4, NOTE_SIXTEENTH},
+  {NOTE_E4, NOTE_QUARTER},
+  {NOTE_A3, NOTE_EIGHTH},
+  {NOTE_A3, NOTE_EIGHTH},
+
+  {NOTE_D4, NOTE_QUARTER},
+  {NOTE_C4, NOTE_DOTTED_EIGHTH},
+  {NOTE_AS3, NOTE_SIXTEENTH},
+  {NOTE_C4, NOTE_QUARTER},
+  {NOTE_F3, NOTE_DOTTED_EIGHTH},
+  {NOTE_F3, NOTE_SIXTEENTH},
+
+  {NOTE_F4, NOTE_QUARTER},
+  {NOTE_E4, NOTE_DOTTED_EIGHTH},
+  {NOTE_D4, NOTE_SIXTEENTH},
+  {NOTE_C4, NOTE_EIGHTH},
+  {NOTE_E4, NOTE_EIGHTH},
+  {NOTE_F4, NOTE_EIGHTH},
+  {NOTE_G4, NOTE_EIGHTH},
+
+  {NOTE_A4, NOTE_HALF},
+  {NOTE_G4, NOTE_EIGHTH},
+  {NOTE_F4, NOTE_EIGHTH},
+  {NOTE_E4, NOTE_EIGHTH},
+  {NOTE_F4, NOTE_EIGHTH},
+
+  {NOTE_G4, NOTE_DOTTED_QUARTER},
+  {NOTE_C4, NOTE_EIGHTH},
+  {NOTE_C4, NOTE_EIGHTH},
+  {NOTE_E4, NOTE_EIGHTH},
+  {NOTE_F4, NOTE_EIGHTH},
+  {NOTE_G4, NOTE_EIGHTH},
+
+  {NOTE_F4, NOTE_HALF},
+  {NOTE_E4, NOTE_EIGHTH},
+  {NOTE_D4, NOTE_EIGHTH},
+  {NOTE_C4, NOTE_EIGHTH},
+  {NOTE_D4, NOTE_EIGHTH},
+
+  {NOTE_E4, NOTE_DOTTED_QUARTER},
+  {NOTE_A3, NOTE_EIGHTH},
+  {NOTE_A3, NOTE_EIGHTH},
+  {NOTE_C4, NOTE_EIGHTH},
+  {NOTE_D4, NOTE_EIGHTH},
+  {NOTE_E4, NOTE_EIGHTH},
+
+  {NOTE_F4, NOTE_QUARTER},
+  {NOTE_D4, NOTE_DOTTED_EIGHTH},
+  {NOTE_E4, NOTE_SIXTEENTH},
+  {NOTE_F4, NOTE_QUARTER},
+  {NOTE_D4, NOTE_DOTTED_EIGHTH},
+  {NOTE_E4, NOTE_SIXTEENTH},
+
+  {NOTE_F4, NOTE_QUARTER},
+  {NOTE_D4, NOTE_EIGHTH},
+  {NOTE_F4, NOTE_EIGHTH},
+  {NOTE_AS4, NOTE_HALF},
+
+  {NOTE_AS4, NOTE_HALF},
+  {NOTE_A4, NOTE_EIGHTH},
+  {NOTE_G4, NOTE_EIGHTH},
+  {NOTE_F4, NOTE_EIGHTH},
+  {NOTE_G4, NOTE_EIGHTH},
+
+  {NOTE_A4, NOTE_DOTTED_QUARTER},
+  {NOTE_F4, NOTE_EIGHTH},
+  {NOTE_F4, NOTE_HALF},
+
+  {NOTE_G4, NOTE_HALF},
+  {NOTE_F4, NOTE_EIGHTH},
+  {NOTE_E4, NOTE_EIGHTH},
+  {NOTE_D4, NOTE_EIGHTH},
+  {NOTE_E4, NOTE_EIGHTH},
+
+  {NOTE_F4, NOTE_DOTTED_QUARTER},
+  {NOTE_D4, NOTE_EIGHTH},
+  {NOTE_D4, NOTE_HALF},
+
+  {NOTE_F4, NOTE_QUARTER},
+  {NOTE_E4, NOTE_DOTTED_EIGHTH},
+  {NOTE_D4, NOTE_SIXTEENTH},
+  {NOTE_C4, NOTE_QUARTER},
+  {NOTE_F3, NOTE_QUARTER},
+
+  {NOTE_F4, NOTE_QUARTER},
+  {NOTE_E4, NOTE_DOTTED_EIGHTH},
+  {NOTE_D4, NOTE_SIXTEENTH},
+  {NOTE_C4, NOTE_DOTTED_QUARTER},
+  {NOTE_C4, NOTE_EIGHTH},
+
+  {NOTE_C4, NOTE_QUARTER},
+  {NOTE_D4, NOTE_EIGHTH},
+  {NOTE_E4, NOTE_EIGHTH},
+  {NOTE_F4, NOTE_HALF}
+};
+
+void setup() {
+  pinMode(BUZZER_PIN, OUTPUT);
+
+  // Repeating I
+  for (int i = 0; i < NUMBER_OF_NOTES - 4; i++) {
+    note(anthem[i][0], anthem[i][1]);
+  }
+
+  // Repeating II
+  for (int i = 1; i < NUMBER_OF_NOTES; i++) {
+    // skip notes from the end of the first repeat.
+    if (i >= NUMBER_OF_NOTES - 9 && i < NUMBER_OF_NOTES - 4)
+      continue;
+    note(anthem[i][0], anthem[i][1]);
+  }
+}
+
+void loop() {}
+
+void note(unsigned int frequency, unsigned long duration) {
+  tone(BUZZER_PIN, frequency);
+  delay(duration);
+  noTone(BUZZER_PIN);
+}
