@@ -3,6 +3,9 @@
 This repository is my storage for everything related with programming microcontrollers of any kind. If you like you can also watch videos about programming microcontrollers on my [Zero Amps](https://www.youtube.com/channel/UCFY_8hVXcXAw6UprvisqYQw) YouTube channel.
 
 ## 8-bit AVR microcontrollers
+### Arduino
+* [NationalAnthemOfRussia](https://github.com/chovanj/Microcontrollers/tree/master/Architecture/AVR/8-bit/Arduino/NationalAnthemOfRussia) - it plays National anthem of Russia using a passive buzzer.
+
 ### ATtiny4/ATtiny5/ATtiny9/ATtiny10/ATtiny20/ATtiny40
 * [Blink](https://github.com/chovanj/Microcontrollers/tree/master/Architecture/AVR/8-bit/AVRTiny/Blink) - it blinks a LED.
 
