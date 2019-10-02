@@ -1,6 +1,8 @@
 # Blink
 It blinks a LED connected to the PIN 4 via a resistor. For uploading binaries I use USBasp programmer which supports TPI (Tiny Programming Interface) and SPI (Serial Peripheral Interface).
 
+TIP: [How to program AVR microcontrollers in Visual Studio Code](https://github.com/chovanj/Microcontrollers/wiki/How-to-program-AVR-microcontrollers-in-Visual-Studio-Code)
+
 ## Supported microcontrollers
 ATtiny4, ATtiny5, ATtiny9, ATtiny10, ATtiny20 and ATtiny40.
 
