@@ -8,6 +8,7 @@ This repository is my storage for everything related with programming microcontr
 
 ### ATtiny4/ATtiny5/ATtiny9/ATtiny10/ATtiny20/ATtiny40
 * [Blink](https://github.com/chovanj/Microcontrollers/tree/master/Architecture/AVR/8-bit/AVRTiny/Blink) - it blinks a LED.
+* [SimpleBlink](https://github.com/chovanj/Microcontrollers/tree/master/Architecture/AVR/8-bit/AVRTiny/SimpleBlink) - it blinks a LED, but the code is even simpler then the blink one. 
 
 ## Resources
 ### Books
