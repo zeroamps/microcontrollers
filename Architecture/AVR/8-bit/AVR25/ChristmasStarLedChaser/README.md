@@ -4,7 +4,7 @@ It blinks a LED connected to the PIN 4 via a resistor. For uploading binaries I 
 TIP: [How to program AVR microcontrollers in Visual Studio Code](https://github.com/chovanj/Microcontrollers/wiki/How-to-program-AVR-microcontrollers-in-Visual-Studio-Code)
 
 ## Supported microcontrollers
-ATtiny4, ATtiny5, ATtiny9, ATtiny10, ATtiny20 and ATtiny40.
+The code is written specifically for ATtiny13A, but it should work also on other microcontrollers.
 
 ## How to compile and upload it to a microcontroller
 
@@ -12,24 +12,18 @@ ATtiny4, ATtiny5, ATtiny9, ATtiny10, ATtiny20 and ATtiny40.
 In Visual Studio Code just press Ctrl+Shift+B and it compiles the code and uploads it to a microcontroller. For correct intellisense in Visual Studio Code don't forget to change c_cpp_properties.json to your target microcontroller.
 ```
 "defines": [
-                "__AVR_ATtiny10__"
+                "__AVR_ATtiny13A__"
             ], 
 ```
 
 ### Option 2
-By default for ATtiny10, F_CPU=1000000UL.
+By default for ATtiny13A, F_CPU=1000000UL.
 ```
 make
 ```
 
 ### Option 3
-For any other microcontrollers.
 ```
-make MCU=attiny20 F_CPU=8000000UL
-```
-
-### Option 4
-```
-avr-gcc simple_blink.c -mmcu=attiny4 -DF_CPU=1000000UL -Os -o simple_blink.bin
-avrdude -c usbasp -p attiny4 -U simple_blink.bin
+avr-gcc simple_blink.c -mmcu=attiny13 -DF_CPU=1000000UL -Os -o simple_blink.bin
+avrdude -c usbasp -p attiny13 -U simple_blink.bin
 ```
