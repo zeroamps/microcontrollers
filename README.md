@@ -10,7 +10,7 @@ This repository is my storage for everything related with programming microcontr
 * [Blink](https://github.com/chovanj/Microcontrollers/tree/master/Architecture/AVR/8-bit/AVRTiny/Blink) - it blinks a LED.
 * [SimpleBlink](https://github.com/chovanj/Microcontrollers/tree/master/Architecture/AVR/8-bit/AVRTiny/SimpleBlink) - it blinks a LED, but the code is even simpler then the blink one. 
 
-###ATtiny13a
+### ATtiny13a
 
 ## Resources
 ### Books
