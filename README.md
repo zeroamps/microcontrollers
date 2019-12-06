@@ -11,6 +11,7 @@ This repository is my storage for everything related with programming microcontr
 * [SimpleBlink](https://github.com/chovanj/Microcontrollers/tree/master/Architecture/AVR/8-bit/AVRTiny/SimpleBlink) - it blinks a LED, but the code is even simpler then the blink one. 
 
 ### ATtiny13A
+* [ChristmasStarLedChaser](https://github.com/chovanj/Microcontrollers/tree/master/Architecture/AVR/8-bit/AVR25/ChristmasStarLedChaser) - it drives a christmas star led chaser.
 
 ## Resources
 ### Books
