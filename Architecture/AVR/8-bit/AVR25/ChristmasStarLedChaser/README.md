@@ -1,6 +1,8 @@
 # Christmas Star Led Chaser
 This program is written for a christmas star led chaser which you can watch on https://youtu.be/-iHJekTXPT4. For uploading binaries I use USBasp programmer which supports TPI (Tiny Programming Interface) and SPI (Serial Peripheral Interface).
 
+![Schematic](https://github.com/chovanj/Microcontrollers/blob/master/Architecture/AVR/8-bit/AVR25/ChristmasStarLedChaser/Schematic.png)
+
 TIP: [How to program AVR microcontrollers in Visual Studio Code](https://github.com/chovanj/Microcontrollers/wiki/How-to-program-AVR-microcontrollers-in-Visual-Studio-Code)
 
 ## Supported microcontrollers
