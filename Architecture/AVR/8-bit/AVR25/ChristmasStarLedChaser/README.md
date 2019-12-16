@@ -1,5 +1,5 @@
 # Christmas Star Led Chaser
-This program is written for a christmas star led chaser. For uploading binaries I use USBasp programmer which supports TPI (Tiny Programming Interface) and SPI (Serial Peripheral Interface).
+This program is written for a christmas star led chaser, see [Christmas Star Led Chaser With ATtiny13A](https://youtu.be/wwp6U7RzODw) on YouTube. For uploading binaries I use USBasp programmer which supports TPI (Tiny Programming Interface) and SPI (Serial Peripheral Interface).
 
 ![Schematic](https://github.com/chovanj/Microcontrollers/blob/master/Architecture/AVR/8-bit/AVR25/ChristmasStarLedChaser/Schematic.png)
 
