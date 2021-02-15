@@ -1,0 +1,7 @@
+{
+    "sketch": "main.ino",
+    "output": ".vscode/build",
+    "board": "arduino:avr:nano",
+    "configuration": "cpu=atmega328",
+    "port": "COM3"
+}
