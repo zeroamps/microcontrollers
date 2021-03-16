@@ -8,5 +8,3 @@
 https://www.espressif.com/sites/default/files/documentation/4a-esp8266_at_instruction_set_en.pdf.
 
 ![FLASH DOWNLOAD TOOLS](https://github.com/chovanj/Microcontrollers/blob/master/Architecture/ESP/32-bit/ESP8266/ESP8266DownloadTool.png)
-
-For my ESP-01 module it looks like this.
