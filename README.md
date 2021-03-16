@@ -13,6 +13,10 @@ This repository is my storage for everything related with programming microcontr
 ### ATtiny13A
 * [ChristmasStarLedChaser](https://github.com/chovanj/Microcontrollers/tree/master/Architecture/AVR/8-bit/AVR25/ChristmasStarLedChaser) - it drives a christmas star led chaser.
 
+## 32-bit ESP microcontrollers
+### ESP8266
+* [Getting Started](https://github.com/chovanj/Microcontrollers/tree/master/Architecture/AVR/8-bit/Arduino/NationalAnthemOfRussia) - this is a getting started guide for the ESP8266 module.
+
 ## Resources
 ### Books
 * [C Primer Plus (Sixth Edition)](https://github.com/chovanj/Microcontrollers/blob/master/Documents/Books/C_Primer_Plus_6th_Edition.pdf) - is a great book about C language which is inevitable for programming microcontrollers.
