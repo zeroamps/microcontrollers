@@ -15,7 +15,7 @@ This repository is my storage for everything related with programming microcontr
 
 ## 32-bit ESP microcontrollers
 ### ESP8266
-* [Getting Started](https://github.com/chovanj/Microcontrollers/tree/master/Architecture/AVR/8-bit/Arduino/NationalAnthemOfRussia) - this is a getting started guide for the ESP8266 module.
+* [Getting Started](https://github.com/chovanj/Microcontrollers/tree/master/Architecture/ESP/32-bit/ESP8266) - this is a getting started guide for the ESP8266 module.
 
 ## Resources
 ### Books
