@@ -5,4 +5,8 @@
 1. Download the firmware from https://www.espressif.com/sites/default/files/ap/ESP8266_NonOS_AT_Bin_V1.7.4.zip
 2. Download the flashing tool from https://www.espressif.com/sites/default/files/tools/flash_download_tool_v3.8.5.zip
 3. Open the flash_download_tool_3.8.5.exe tool and select all binaries with addresses based on your module flash size 
-https://www.espressif.com/sites/default/files/documentation/4a-esp8266_at_instruction_set_en.pdf. For my ESP-01 module it looks like this.
+https://www.espressif.com/sites/default/files/documentation/4a-esp8266_at_instruction_set_en.pdf.
+
+![FLASH DOWNLOAD TOOLS](https://github.com/chovanj/Microcontrollers/blob/master/Architecture/ESP/32-bit/ESP8266/ESP8266DownloadTool.png)
+
+For my ESP-01 module it looks like this.
