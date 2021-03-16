@@ -11,3 +11,4 @@ https://www.espressif.com/sites/default/files/documentation/4a-esp8266_at_instru
 4. After selecting CrystalFreq, SPI SPEED, SPI MODE and FLASH SIZE click on the START button to flash the firmware to your module. If you don't know your module specification check the SpiAutoSet checkbox and after clicking on the START button it should detect all settings automatically except for SPI SPEEP.
 5. After successful flashing you can check a new version from the Arduino IDE. Type AT+GMR in the Serial Monitor.<br/><br/>
 ![Arduino IDE Serial Monitor](https://github.com/chovanj/Microcontrollers/blob/master/Architecture/ESP/32-bit/ESP8266/SerialMonitor.png)
+6. You can start playing with AT commands https://www.espressif.com/sites/default/files/documentation/4a-esp8266_at_instruction_set_en.pdf.
