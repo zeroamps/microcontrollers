@@ -17,7 +17,7 @@ This repository is my storage for everything related with programming microcontr
 * [ESP8266](https://github.com/chovanj/Microcontrollers/tree/master/Architecture/ESP/32-bit/ESP8266) - this is a getting started guide for the ESP8266 module.
 
 ## Modules
-* [HC-05 Serial Port Bluetooth Module (Master/Slave)](https://github.com/chovanj/Microcontrollers/tree/master/Architecture/ESP/32-bit/ESP8266) - this is a getting started guide for the serial port bluetooth master/slave module HC-05.
+* [HC-05 Serial Port Bluetooth Module](https://github.com/chovanj/Microcontrollers/tree/master/Architecture/ESP/32-bit/ESP8266) - this is a getting started guide for the serial port bluetooth master/slave module HC-05.
 
 ## Resources
 ### Books
