@@ -2,5 +2,5 @@
     "sketch": "main.ino",
     "output": ".vscode/build",
     "board": "arduino:avr:uno",
-    "port": "COM10"
+    "port": "COM14"
 }
