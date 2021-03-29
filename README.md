@@ -17,6 +17,9 @@ This repository is my storage for everything related with programming microcontr
 ### ESP8266
 * [Getting Started](https://github.com/chovanj/Microcontrollers/tree/master/Architecture/ESP/32-bit/ESP8266) - this is a getting started guide for the ESP8266 module.
 
+## Modules
+### [HC-05 - SERIAL PORT BLUETOOTH MODULE](https://github.com/chovanj/Microcontrollers/tree/master/Architecture/ESP/32-bit/ESP8266) - this is a getting started guide for the serial port bluetooth module HC-05.
+
 ## Resources
 ### Books
 * [C Primer Plus (Sixth Edition)](https://github.com/chovanj/Microcontrollers/blob/master/Documents/Books/C_Primer_Plus_6th_Edition.pdf) - is a great book about C language which is inevitable for programming microcontrollers.
