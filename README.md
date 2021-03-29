@@ -14,8 +14,7 @@ This repository is my storage for everything related with programming microcontr
 * [ChristmasStarLedChaser](https://github.com/chovanj/Microcontrollers/tree/master/Architecture/AVR/8-bit/AVR25/ChristmasStarLedChaser) - it drives a christmas star led chaser.
 
 ## 32-bit ESP modules
-### ESP8266
-* [Getting Started](https://github.com/chovanj/Microcontrollers/tree/master/Architecture/ESP/32-bit/ESP8266) - this is a getting started guide for the ESP8266 module.
+* [ESP8266](https://github.com/chovanj/Microcontrollers/tree/master/Architecture/ESP/32-bit/ESP8266) - this is a getting started guide for the ESP8266 module.
 
 ## Modules
 * [HC-05 Serial Port Bluetooth Module (Master/Slave)](https://github.com/chovanj/Microcontrollers/tree/master/Architecture/ESP/32-bit/ESP8266) - this is a getting started guide for the serial port bluetooth master/slave module HC-05.
