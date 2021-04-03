@@ -2,10 +2,10 @@
 #include <MotorDriver.h>
 
 #define TURN_SPEED 153
-#define DELAY 50
+#define MOTOR_DELAY 50
 
 MotorDriver motorDriver;
-int speed = 153;
+int speed = 255;
 
 void setup()
 {
@@ -28,8 +28,11 @@ void loop()
         case 'R':
             right();
             break;
-        case 'S':
-            changeSpeed();
+        case '>':
+            speedUp();
+            break;
+        case '<':
+            slowDown();
             break;
         }
     } else {
@@ -43,7 +46,7 @@ void forward()
     motorDriver.motor(2, FORWARD, speed);
     motorDriver.motor(3, FORWARD, speed);
     motorDriver.motor(4, FORWARD, speed);
-    delay(DELAY);
+    delay(MOTOR_DELAY);
 }
 
 void backward()
@@ -52,7 +55,7 @@ void backward()
     motorDriver.motor(2, BACKWARD, speed);
     motorDriver.motor(3, BACKWARD, speed);
     motorDriver.motor(4, BACKWARD, speed);
-    delay(DELAY);
+    delay(MOTOR_DELAY);
 }
 
 void left()
@@ -61,7 +64,7 @@ void left()
     motorDriver.motor(2, BACKWARD, TURN_SPEED);
     motorDriver.motor(3, BACKWARD, TURN_SPEED);
     motorDriver.motor(4, FORWARD, TURN_SPEED);
-    delay(DELAY);
+    delay(MOTOR_DELAY);
 }
 
 void right()
@@ -70,7 +73,7 @@ void right()
     motorDriver.motor(2, FORWARD, TURN_SPEED);
     motorDriver.motor(3, FORWARD, TURN_SPEED);
     motorDriver.motor(4, BACKWARD, TURN_SPEED);
-    delay(DELAY);
+    delay(MOTOR_DELAY);
 }
 
 void release()
@@ -81,13 +84,18 @@ void release()
     motorDriver.motor(4, RELEASE, 0);
 }
 
-void changeSpeed()
+void speedUp()
 {
-    if (speed == 153) {
-        speed = 191;
-    } else if (speed == 191) {
+    speed += 20;
+    if (speed > 255) {
         speed = 255;
-    } else {
-        speed = 153;
+    }
+}
+
+void slowDown()
+{
+    speed -= 20;
+    if (speed < 127) {
+        speed = 127;
     }
 }
