@@ -262,3 +262,5 @@ __pycache__/
 
 # ---
 *.bin
+
+**/.vscode/build/
