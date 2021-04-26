@@ -1,9 +1,9 @@
 # Christmas Star Led Chaser
 This program is written for a christmas star led chaser, see [Christmas Star Led Chaser With ATtiny13A](https://youtu.be/HBaCg98Sa-E) on YouTube. For uploading binaries I use USBasp programmer which supports TPI (Tiny Programming Interface) and SPI (Serial Peripheral Interface).
 
-![Schematic](https://github.com/chovanj/Microcontrollers/blob/master/Architecture/AVR/8-bit/AVR25/ChristmasStarLedChaser/Schematic.png)
+![Schematic](https://github.com/zeroamps/Microcontrollers/blob/master/Architecture/AVR/8-bit/AVR25/ChristmasStarLedChaser/Schematic.png)
 
-TIP: [How to program AVR microcontrollers in Visual Studio Code](https://github.com/chovanj/Microcontrollers/wiki/How-to-program-AVR-microcontrollers-in-Visual-Studio-Code)
+TIP: [How to program AVR microcontrollers in Visual Studio Code](https://github.com/zeroamps/Microcontrollers/wiki/How-to-program-AVR-microcontrollers-in-Visual-Studio-Code)
 
 ## Supported microcontrollers
 The code is written specifically for ATtiny13A, but it should work also on other microcontrollers.
