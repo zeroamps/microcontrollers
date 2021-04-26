@@ -7,21 +7,21 @@ This repository is my storage for everything related with programming microcontr
 * [NationalAnthemOfRussia](/Architecture/AVR/8-bit/Arduino/NationalAnthemOfRussia) - it plays National anthem of Russia using a passive buzzer.
 
 ### ATtiny4/ATtiny5/ATtiny9/ATtiny10/ATtiny20/ATtiny40
-* [Blink](https://github.com/chovanj/Microcontrollers/tree/master/Architecture/AVR/8-bit/AVRTiny/Blink) - it blinks a LED.
-* [SimpleBlink](https://github.com/chovanj/Microcontrollers/tree/master/Architecture/AVR/8-bit/AVRTiny/SimpleBlink) - it blinks a LED, but the code is even simpler then the blink one. 
+* [Blink](/Architecture/AVR/8-bit/AVRTiny/Blink) - it blinks a LED.
+* [SimpleBlink](/Architecture/AVR/8-bit/AVRTiny/SimpleBlink) - it blinks a LED, but the code is even simpler then the blink one. 
 
 ### ATtiny13A
-* [ChristmasStarLedChaser](https://github.com/chovanj/Microcontrollers/tree/master/Architecture/AVR/8-bit/AVR25/ChristmasStarLedChaser) - it drives a christmas star led chaser.
+* [ChristmasStarLedChaser](/Architecture/AVR/8-bit/AVR25/ChristmasStarLedChaser) - it drives a christmas star led chaser.
 
 ## 32-bit ESP modules
-* [ESP8266](https://github.com/chovanj/Microcontrollers/tree/master/Architecture/ESP/32-bit/ESP8266) - this is a getting started guide for the ESP8266 module.
+* [ESP8266](/Architecture/ESP/32-bit/ESP8266) - this is a getting started guide for the ESP8266 module.
 
 ## Modules
-* [HC-05 Serial Port Bluetooth Module](https://github.com/chovanj/Microcontrollers/blob/master/Modules/HC-05/README.md) - this is a getting started guide for the serial port bluetooth master/slave module HC-05.
+* [HC-05 Serial Port Bluetooth Module](/Modules/HC-05/README.md) - this is a getting started guide for the serial port bluetooth master/slave module HC-05.
 
 ## Resources
 ### Books
-* [C Primer Plus (Sixth Edition)](https://github.com/chovanj/Microcontrollers/blob/master/Documents/Books/C_Primer_Plus_6th_Edition.pdf) - is a great book about C language which is inevitable for programming microcontrollers.
+* [C Primer Plus (Sixth Edition)](/Documents/Books/C_Primer_Plus_6th_Edition.pdf) - is a great book about C language which is inevitable for programming microcontrollers.
 * [The Art of Electronics](https://artofelectronics.net/the-book/table-of-contents/) - is a popular textbook dealing with analog and digital electronics.
 
 ### Datasheets
