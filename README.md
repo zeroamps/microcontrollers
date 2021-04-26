@@ -4,7 +4,7 @@ This repository is my storage for everything related with programming microcontr
 
 ## 8-bit AVR microcontrollers
 ### Arduino
-* [NationalAnthemOfRussia](https://github.com/chovanj/Microcontrollers/tree/master/Architecture/AVR/8-bit/Arduino/NationalAnthemOfRussia) - it plays National anthem of Russia using a passive buzzer.
+* [NationalAnthemOfRussia](/Architecture/AVR/8-bit/Arduino/NationalAnthemOfRussia) - it plays National anthem of Russia using a passive buzzer.
 
 ### ATtiny4/ATtiny5/ATtiny9/ATtiny10/ATtiny20/ATtiny40
 * [Blink](https://github.com/chovanj/Microcontrollers/tree/master/Architecture/AVR/8-bit/AVRTiny/Blink) - it blinks a LED.
